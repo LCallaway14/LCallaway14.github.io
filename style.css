@@ -58,7 +58,7 @@ nav li a:hover {
 
 h2 {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 .projects {
@@ -110,13 +110,13 @@ h2 {
 }
 
 .left div {
-    width: 300px;
+    width: 350px;
     padding: 10px 20px;
     background-color: rgba(100,100,100,.25);
 }
 
 .right div {
-    width: 300px;
+    width: 350px;
     padding: 10px 20px;
     background-color: rgba(100,100,100,.25);
     text-align: right;
