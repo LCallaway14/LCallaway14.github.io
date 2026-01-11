@@ -1,7 +1,7 @@
 html {
     background-color: black;
     color:white;
-    font-family: Courgette;
+    font-family: cursive;
     font-size: 16px;
 }
 
@@ -26,29 +26,37 @@ nav li {
     font-size: 1.7rem;
 }
 
-nav li a {
+nav a {
     text-decoration: none;
     color: white;
 }
 
-nav li a:hover {
+a {
+    color: white;
+}
+
+a:visited {
+    color: lightblue;
+}
+
+a:hover {
     color: grey;
 }
 
 .mission {
     display: flex;
-    background-image: url("peachdc.jpg");
+    background-image: url("OmbreMandala.jpg");
     background-repeat: no-repeat;
-    height: 850px;
-    width: 504px;
+    height: 600px;
+    width: 600px;
     background-size: contain;
-    margin: 20px auto;
+    margin: 30px auto;
     align-items: center;
     justify-content: center;
 }
 
 .mission p {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.65);
     width: 100%;
     padding:10px;
     font-size: 1.5rem;
@@ -107,7 +115,7 @@ h2 {
     display: flex;
     justify-content: flex-start;
     margin: 20px;
-    background-color: rgba(100,100,100,.25);
+    
 }
 
 .right {
@@ -115,18 +123,24 @@ h2 {
     flex-direction: row-reverse;
     justify-content: flex-start;
     margin:20px;
-    background-color: rgba(100,100,100,.25);
+    
 }
 
 .left div {
     width: 350px;
     padding: 10px 20px;
+    background-color: rgba(100,100,100,.25);
+}
+
+.left img {
+    background-color: rgba(100,100,100,.25);
 }
 
 .right div {
     width: 350px;
     padding: 10px 20px;
     text-align: right;
+    background-color: rgba(100,100,100,.25);
 }
 
 .left p, .right p {
