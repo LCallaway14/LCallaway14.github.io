@@ -75,9 +75,16 @@ h2 {
     width: auto;
     height: 200px;
 }
+.proj video{
+    height: auto;
+    width: 200px;
+}
 .projb img{
     height: 300px;
     width:auto;
+}
+.projb video{
+    height:200px;
 }
 .proj {
     width: 200px;
@@ -100,6 +107,7 @@ h2 {
     display: flex;
     justify-content: flex-start;
     margin: 20px;
+    background-color: rgba(100,100,100,.25);
 }
 
 .right {
@@ -107,18 +115,17 @@ h2 {
     flex-direction: row-reverse;
     justify-content: flex-start;
     margin:20px;
+    background-color: rgba(100,100,100,.25);
 }
 
 .left div {
     width: 350px;
     padding: 10px 20px;
-    background-color: rgba(100,100,100,.25);
 }
 
 .right div {
     width: 350px;
     padding: 10px 20px;
-    background-color: rgba(100,100,100,.25);
     text-align: right;
 }
 
