@@ -94,6 +94,9 @@ h2 {
 .projb video{
     height:200px;
 }
+.projb p{
+    text-align: center;
+}
 .proj {
     width: 200px;
     margin: 20px;
